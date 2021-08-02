@@ -1,0 +1,19 @@
+habitat
+code: byte.observer
+
+a 63b DOS intro for @party 2021
+for compo: 256 byte intro.
+
+github: @nwoeanhinnogaehr
+https://byte.observer
+
+Recommended environment: dosbox 0.74-3 at 100 MHz (cycles=fixed 100000)
+
+My first time coding for DOS! I had the idea to port my intro 'xorchitecture'
+to DOS and see how small I could make it. In the end I got something resembling
+it in just 59 bytes, and decided to use another 4 bytes to make it a bit more
+interesting. There's also a 69 byte version included with ESC support.
+Greets to all sizecoders.
+
+p.s. I'm not fully convinced that double buffering is needed to make this
+effect. Maybe someone can get it below 32b if they can find a way around that.
